@@ -1,8 +1,5 @@
-
-
 canonifyurls = false
-paginate = 10
-copyright = "Created with ♥ by <a href='/about/'>Your Name</a>. All content is the property of <Your Name> and <Site Url>. This blog, its content, and opinions are my own."
+paginate = 100
 
 # Set to true to enable syntax highlighting in code fences with a language tag
 pygmentsCodefences =  true
@@ -10,8 +7,6 @@ pygmentsCodefences =  true
 # color-codes for highlighting derived from this style
 pygmentsStyle = "manni"
 
-[author]
-  name = "Your Name"
 
 [params]
   DateForm = "January 2, 2006"
@@ -20,26 +15,13 @@ pygmentsStyle = "manni"
   Author = "Your Name"
   postSummariesFrontPage = 5
   showReadTime = false
-  # customCSS = ["/css/custom.css"] # custom CSS
   defaultHeaderImage = "/images/bg.png"
   mainSections = ["posts"]
+  copyright = "Created with ♥ by <a href='/about/'>Your Name</a>. All content is the property of <Your Name> and <Site Url>. This blog, its content, and opinions are my own."
 
 # Allow HTML to be included from Markdown files
 [markup.goldmark.renderer]
   unsafe = true
-
-[[params.social]]
-  title = "linkedin"
-  url = ""
-[[params.social]]
-  title = "github"
-  url = ""
-[[params.social]]
-  title = "envelope"
-  url = "/contact/"
-[[params.social]]
-  title = "twitter"
-  url = ""
 
 [[menu.main]]
   name ="Home"
